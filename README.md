@@ -53,7 +53,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Demo of Linters**
-- **Demo of home and about  Page**
+- **Add-and-remove-books**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
