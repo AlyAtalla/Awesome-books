@@ -70,9 +70,9 @@ class showBooks {
 
 document.addEventListener('DOMContentLoaded', showBooks.displayBooks);
 
-const showBookList = document.getElementById('nav-list');
-const showAddBook = document.getElementById('nav-add');
-const showContact = document.getElementById('nav-contact');
+const showBookList = document.getElementById('nav-lst');
+const showAddBook = document.getElementById('nav-plus');
+const showContact = document.getElementById('nav-contact-us');
 
 function showList() {
   document.getElementById('book-list').style.display = 'flex';
