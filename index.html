@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Awesome Books</title>
+</head>
+<body>
+	<header class="head-top">
+		<div class="navbar">
+			<div class="nav-b">
+				<p>Awesome Books</p>
+			</div>
+			<a href="#" class="nav-lnk" id="nav-lst">List</a>
+			<a href="#" class="nav-lnk" id="nav-plus">Add new</a>
+			<a href="#" class="nav-lnk" id="nav-contact-us">Contact us</a>
+		</div>
+	</header>
+	<section id="book-list">
+		<div class="container">
+			<header class="books-header">
+				<h1>Awesome Books</h1>
+			</header>
+			<table>
+				<thead>
+					<tr class="line">
+					<th>Title</th>
+					<th>Author</th>
+					<th></th>
+					</tr>
+				</thead>
+				<tbody id="list"></tbody>
+			</table>
+			</div>
+	</section>
+	<section id="add-new">
+		<div class="container">
+			<h2>Add a new</h2>
+			<form id="form">
+				<div class="form-group">
+					<label for="title"></label>
+					<input type="text" id="title" required placeholder="Title">
+				</div>
+				<div class="form-group">
+					<label for="author"></label>
+					<input type="text" id="author" required placeholder="Author">
+				</div>
+				<input type="submit" value="Add" class="submit">
+			</form>
+		</div>
+	</section>
+	<section id="contact-us">
+		<div class="container">
+			<header class="contact-header">
+				<h1>Contact information</h1>
+			</header>
+			<div class="info">
+				<p>Do you have any questions or you just want to say "hello"? You can reach out to us!</p>
+				<ul class="info-list">
+					<li class="info-item">Our e-mail aliatalla93@mail.com;hsuwady2001@gmail.com</li>
+					<li class="info-item">Our phone number: +201017816578;+969758726769</li>
+					<li class="info-item">Our address: Elwardy 22, 44603 Alexandria, Egypt</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<div></div>
+	<footer>
+		<h2>Copyrights@AlyAtalla </h2>
+	</footer>
+	<script src="./script.js"></script>
+</body>
+</html>
