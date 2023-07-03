@@ -32,7 +32,7 @@
 
 **Awesome-books**  is a basic website that allows users to add/remove books from a list by using JavaScript objects and arrays.
 
-![Snapshot](./images/snapshot.jpeg)
+![Snapshot](/snapshot.jpeg)
 
 ## 🛠 Built With <a name="built-with">HTML, Javascript</a>
 
