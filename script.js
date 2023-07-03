@@ -74,12 +74,12 @@ const showBookList = document.getElementById('nav-lst');
 const showAddBook = document.getElementById('nav-plus');
 const showContact = document.getElementById('nav-contact-us');
 
-function showList() {
+function displayList() {
   document.getElementById('book-list').style.display = 'flex';
   document.getElementById('add-new').style.display = 'none';
   document.getElementById('contact').style.display = 'none';
 }
-function showAdd() {
+function displayPlus() {
   document.getElementById('book-list').style.display = 'none';
   document.getElementById('add-new').style.display = 'flex';
   document.getElementById('contact').style.display = 'none';
@@ -91,13 +91,13 @@ function showContactPage() {
 }
 
 window.addEventListener('load', () => {
-  showList();
+  displayList();
 });
 showBookList.addEventListener('click', () => {
-  showList();
+  displayList();
 });
 showAddBook.addEventListener('click', () => {
-  showAdd();
+  displayPlus();
 });
 showContact.addEventListener('click', () => {
   showContactPage();
