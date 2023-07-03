@@ -1,7 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  
+   <img src="rsz_my-logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
   <h3><b> Awesome Books</b></h3>
 
 </div>
@@ -14,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -32,11 +32,9 @@
 
 **Awesome-books**  is a basic website that allows users to add/remove books from a list by using JavaScript objects and arrays.
 
-![Snapshot](./images/snappshot.jpeg)
-![Snapshot](./images/snapshot2.jpeg)
-![Snapshot](./images/snapshot3.jpeg)
+![Snapshot](./images/snapshot.jpeg)
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">HTML, Javascript</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -57,10 +55,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://github.com/AlyAtalla/Awesome-books)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,8 +128,8 @@ npx eslint .
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add-functionality**
-- [ ] **Add-Cool-styles**
+- [ ] **Add functionality**
+- [ ] **Add CSS**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
