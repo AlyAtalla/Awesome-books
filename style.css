@@ -18,7 +18,15 @@ body {
   background-color: white;
 }
 
-
+.nav-lnk {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+.vertical-line {
+  border-left: 1px solid black;
+  height: 12px;
+  margin: 0 10px;
+}
 
 .nav-b {
   padding-right: 400px;
