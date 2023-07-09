@@ -54,5 +54,5 @@ document.querySelector('#list').addEventListener('click', (e) => {
   Store.removeBook(author);
 });
 
-const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_FULL); // Get the current date and time using Luxon
-document.getElementById('current-date').innerHTML = currentDate; // Update the HTML element with the current date and time
+const currentDate = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
+document.getElementById('current-date').innerHTML = currentDate;
