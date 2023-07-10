@@ -1,4 +1,3 @@
-import Store from './store.js';
 
 export default class ShowBooks {
   static displayBooks() {
