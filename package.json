@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "luxon": "^3.3.0"
+  },
+  "devDependencies": {
+    "hint": "^6.2.0"
   }
 }
