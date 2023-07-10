@@ -1,7 +1,7 @@
-import Book from '/my-modules/book.js';
-import Store from '/my-modules/store.js';
-import ShowBooks from '/my-modules/showBooks.js';
-import { DateTime } from '/node_modules/luxon/src/luxon.js';
+import Book from './my-modules/book.js';
+import Store from './my-modules/store.js';
+import ShowBooks from './my-modules/showBooks.js';
+import { DateTime } from 'luxon/src/luxon.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   ShowBooks.displayBooks();
